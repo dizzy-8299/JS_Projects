@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap");
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("/images/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 10rem;
+  color: #e7e0e0;
+  width: 900px;
+  height: 300px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  padding: 0 0.5em;
+  gap: 20px;
+  border-radius: 12px;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  background-color: rgba(0, 191, 255, 0.135);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+          box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 1px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 1px rgba(40, 40, 40, 0.35) solid;
+  border-right: 1px rgba(40, 40, 40, 0.35) solid;
+}
+
+.clock .hours {
+  width: 4em;
+}
+
+.clock .minutes {
+  width: 4em;
+}
+
+.clock .colon {
+  width: 1em;
+}
+
+.clock .seconds {
+  width: 4em;
+}
+
+.day {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 2rem;
+  color: #e7e0e0;
+  width: 150px;
+  height: 50px;
+  font-family: 'Big Shoulders Stencil Display', cursive;
+  padding: 0 0.5em;
+  gap: 20px;
+  border-radius: 12px;
+  -webkit-backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
+  background-color: rgba(0, 191, 255, 0.135);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+          box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 1px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 1px rgba(40, 40, 40, 0.35) solid;
+  border-right: 1px rgba(40, 40, 40, 0.35) solid;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display:wght@900&display=swap');
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: rgb(231, 224, 224);
+    
+    width: 900px;
+    height: 300px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    padding: 0 0.5em;
+    gap: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0,191,255, 0.135);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 1px rgba(255,255,255,0.4) solid;
+    border-bottom: 1px rgba(40,40,40,0.35) solid;
+    border-right: 1px rgba(40,40,40,0.35) solid;    
+
+ 
+.hours{
+    width: 4em;
+}   
+.minutes{
+    width: 4em;
+}
+.colon{
+width: 1em;
+}
+.seconds{
+    width: 4em;
+}
+}
+
+.day{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: rgb(231, 224, 224);
+    
+    width: 150px;
+    height: 50px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    padding: 0 0.5em;
+    gap: 20px;
+    border-radius: 12px;
+    backdrop-filter: blur(3px);
+    background-color: rgba(0,191,255, 0.135);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 1px rgba(255,255,255,0.4) solid;
+    border-bottom: 1px rgba(40,40,40,0.35) solid;
+    border-right: 1px rgba(40,40,40,0.35) solid;    
+
+}
