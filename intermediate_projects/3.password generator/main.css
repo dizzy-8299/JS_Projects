@@ -1,0 +1,84 @@
+*,::after,::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+    min-height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pwd__wrapper{
+    background: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    min-width: 400px;
+    border-radius: 15px;
+}
+
+.pwd{
+    border-radius: 15px 0 0 0;
+    background: white;
+    color: rgb(29, 2,56);
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    position: relative;
+    padding: 1rem;
+    overflow: auto;
+}
+.pwd__header{
+    display: flex;
+}
+.pwd__header button{
+    background-color: rgb(58, 108, 202);
+    border: none;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0.25rem;
+    
+   
+    border-radius: 0 15px 0 0;
+    padding: 12px;
+   
+    transition: opacity 0.2s ease, transform 0.2s ease;
+    opacity: 0.8;
+}
+
+.pwd__header:hover button{
+    opacity: 1;
+    background: rgb(135, 216, 54);   
+}
+
+.pwd__body{
+    padding: 4%;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 0;
+    color: white;
+}
+
+.generate{
+    background: linear-gradient(315deg, #045de9 0%, #09c6f9 74%); 
+    cursor: pointer;
+    border: none;
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 4%;
+    margin-top: 4%;
+    width: 100%;
+    color: white;
+}
