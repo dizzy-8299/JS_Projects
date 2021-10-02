@@ -1,0 +1,113 @@
+*,::after,::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(315deg, #f7b42c 0%, #fc575e 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.review-container{
+    border-radius: 10px;
+    padding: 1.5%;
+    box-shadow: 0 3px 10px -5px (0,0,0,.3);
+    background-color: white;
+}
+
+.title{
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+h1{
+    font-size: 40px;
+}
+
+.nr{
+    color: gray;
+    font-size: 18px;
+    padding-left: 15px;
+}
+
+.rating{
+    padding: 10px;
+    display: flex;
+}
+
+.review{
+    border: 1px solid transparent;
+    border-radius: 15px;
+    color: rgb(119, 118, 118);
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    padding: 8px;
+    margin: 7px 0;
+}
+
+.review:hover{
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.progress{
+    position: relative;
+    margin: 0 10px;
+    height: 10px;
+    border-radius: 5px;
+    width: 200px;
+    background-color: rgb(177, 169, 169);
+}
+.progress-done-5,.progress-done-4,.progress-done-3,.progress-done-2,.progress-done-1{
+    background: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
+    box-shadow: 0 3px 3px -5px rgb(123, 242, 247),0 2px 5px rgb(123, 242, 247);
+    border-radius: 5px;
+    width: 0;
+    height: 10px;
+    transition: width 1s ease 0.3s;    
+}
+
+.percent {
+    color: #333;
+}
+
+.fas{
+    color: gold;
+}
+
+.stars-outer {
+    position: relative;
+    display: inline-block;
+    margin: 5%;
+  }
+  
+  .stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+  
+  .stars-outer::before {
+    content: '\f005 \f005 \f005 \f005 \f005';
+    font-family: "Font Awesome\ 5 Free";
+    color: #ccc;
+  }
+  
+  .stars-inner::before {
+    content: '\f005 \f005 \f005 \f005 \f005';
+    font-family: "Font Awesome\ 5 Free";
+    font-weight: 900;
+    color: #f8ce0b;
+  }
+  
